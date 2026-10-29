@@ -1,0 +1,24 @@
+:root{--paper:#f6f7f2;--ink:#202923;--green:#38634c;--mint:#d5ebd8;--line:#dce1d7;--muted:#69736a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Segoe UI",system-ui,sans-serif;line-height:1.6}
+a{color:var(--green)}
+a:focus-visible{outline:3px solid var(--green);outline-offset:4px}
+.shell{width:min(820px,calc(100% - 32px));margin:auto}
+header{border-bottom:1px solid var(--line)}
+header .shell{height:76px;display:flex;align-items:center}
+.brand{font-size:22px;font-weight:750;letter-spacing:-1px;display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.brand img{width:32px;height:32px;border-radius:9px}
+.brand b{color:var(--green)}
+main{padding:40px 0 72px}
+.back{font-size:14px;text-decoration:none}
+.eyebrow{display:block;margin-top:32px;font-size:11px;letter-spacing:1.8px;font-weight:650;color:var(--green)}
+h1{font-size:clamp(32px,5vw,46px);line-height:1.15;letter-spacing:-1.6px;font-weight:650;margin:10px 0 8px}
+h2{font-size:19px;letter-spacing:-.3px;margin:34px 0 8px}
+p,address{margin:0 0 12px;font-style:normal}
+.intro{color:var(--muted);font-size:17px}
+.detail{color:var(--muted);font-size:14px;margin-top:24px}
+footer{border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+footer .shell{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:24px 0}
+footer nav{display:flex;gap:18px}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--green)}
